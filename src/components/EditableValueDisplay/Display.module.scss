@@ -1,0 +1,35 @@
+.container {
+   width: 45rem;
+   padding: 0.5rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+
+   .container__header {
+      font-weight: bold;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: var(--color-primary);
+   }
+
+   .container__item {
+      display: flex;
+      width: 100%;
+      background: #ccc;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      align-items: stretch;
+
+      > *:first-child {
+         width: 15rem;
+         background: #bbb;
+         flex-shrink: 0;
+         text-align: center;
+      }
+
+      > *:last-child {
+         padding: 0 1rem;
+      }
+   }
+}

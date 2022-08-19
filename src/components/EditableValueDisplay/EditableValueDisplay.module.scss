@@ -1,0 +1,20 @@
+.container {
+   position: relative;
+   height: 1.5rem;
+   display: flex;
+   align-items: center;
+}
+
+.valueArea {
+   position: absolute;
+   left: 0;
+   right: 0;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   cursor: pointer;
+}
+
+.valueArea__input {
+   width: 100%;
+}
